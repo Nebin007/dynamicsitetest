@@ -1,6 +1,6 @@
 class frontpart{
     constructor(){
-        this.url = 'http://localhost/revpanda/backend/functionality.php'; // The url of site which is hosting
+        this.url = 'https://revpandatest.000webhostapp.com/backend/functionality.php'; // The url of site which is hosting
         this.query = '';
         this.ta = [];
         this.tb = [];
