@@ -137,8 +137,7 @@ class frontpart{
             {
                 tablestruct = tablestruct+'<tr><th scope="row">'+String(i+1)+'</th>';
                 tablestruct = tablestruct+'<td>'+this.tb[i]+'</td>'+"\n";
-                tablestruct = tablestruct+"</tr>"
-                i = i +1;
+                tablestruct = tablestruct+"</tr>";
             }
             tablestruct = tablestruct+'</tbody>';
             return tablestruct;
@@ -151,7 +150,7 @@ class frontpart{
             <thead>
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">data in ascending order</th>
+                <th scope="col">data in descending order</th>
                 </tr>
                 <tbody>
             `;
@@ -159,8 +158,7 @@ class frontpart{
             {
                 tablestruct = tablestruct+'<tr><th scope="row">'+String(i+1)+'</th>';
                 tablestruct = tablestruct+'<td>'+this.tb[i]+'</td>'+"\n";
-                tablestruct = tablestruct+"</tr>"
-                i = i +1;
+                tablestruct = tablestruct+"</tr>";
             }
             tablestruct = tablestruct+'</tbody>';
             return tablestruct;
