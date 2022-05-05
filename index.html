@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="core.js"></script>
+        <title>Revpanda</title>
+    </head>
+    <body>
+        <h1 class="display-4 text-center">Revpanda</h1>
+        <div class="container justify-content-center" style="margin-top: 17px;">
+            <div class="form-group">
+                <label for="InputA">Data A</label>
+                <input type="text" class="form-control" id="InputA"  placeholder="Enter Data for A">
+              </div>
+              <div class="form-group">
+                <label for="InputB">Number B</label>
+                <input type="number" class="form-control" id="InputB"  placeholder="Enter Data for B">
+              </div>
+              <div class="form-group">
+                <label for="InputC">Data C</label>
+                <input type="text" class="form-control" id="InputC"  placeholder="Enter Data for C">
+              </div>
+              <button type="button" class="btn btn-outline-dark" onclick="save()">Save</button>
+        </div>
+        <div class="d-flex flex-row justify-content-center" id="btnspace" style="margin-top:16px;">
+            <div class="p-2"><p class="lead"><button type="button" onclick="btn1()" class="btn btn-outline-primary">See Table A</button></p></div>
+            <div class="p-2"><p class="lead"><button type="button" onclick="btn2()" class="btn btn-outline-secondary">See Table ABC</button></p></div>
+            <div class="p-2"><p class="lead"><button type="button" onclick="btn3()" class="btn btn-outline-warning">See table CB</button></p></div>
+            <div class="p-2"><p class="lead"><button type="button" onclick="btn4()" class="btn btn-outline-info">See Table B Ascending</button></p></div>
+            <div class="p-2"><p class="lead"><button type="button" onclick="btn5()" class="btn btn-outline-dark">See Table B Desceding</button></p></div>
+        </div>
+        <div class="container justify-content-center" style="margin-top: 17px;" id="tableinfo">
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
